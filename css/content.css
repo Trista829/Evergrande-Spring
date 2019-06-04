@@ -1,0 +1,276 @@
+.body {
+	background: #e2e8f0;
+}
+.body-bg img{
+	width: 100%;
+	height: auto;
+	margin-bottom: 15px;
+}
+/*详细内容开始了*/
+/*左边*/
+.sideBar {
+	width: 25%;
+	text-align: left;
+}
+/*.sideLinks {
+	border-radius: 25px;
+}*/
+.sideLinks-hd {
+	height: 38px;
+	line-height: 38px;
+	background: url(../img/content/title.png);
+}
+.sideLinks-hd i {
+	display: inline-block;
+	width: 20px;
+	height: 19px;
+	vertical-align: sub;
+	background: url(../img/content/icon_2.png) no-repeat;
+	margin-left: 10px;
+}
+.sideLinks-hd a {
+	color: #fff;
+}
+.sideLinks-bd ul {
+	background: #e8f8ff;
+}
+.sideLinks-bd li {
+	height: 48px;
+	line-height: 48px;
+	border-bottom: 1px dashed #d6d8d9;
+	padding-left: 25px;
+}
+.sideLinks-bd li.nobor {
+	border: 0;
+}
+.sideLinks-bd li a {
+	color: #808080;
+	font-size: 14px;
+}
+.sideLinks-bd li.active a {
+	color: #125FA3;
+}
+.sideLinks-bd li a:hover {
+	color: #125FA3;
+}
+.Recommend .title {
+	height: 38px;
+	line-height: 38px;
+	background: url(../img/content/t.png) repeat-x;
+	font-size: 14px;
+	margin-top: 15px;
+	padding-top: 8px;
+	padding-left: 18px;
+}
+.title .tleft {
+	width: 10px;
+	height: 23px;
+	background: url(../img/content/tleft.png) no-repeat;
+}
+.title .tmiddle {
+	height: 23px;
+	line-height: 23px;
+	color: #fff;
+	background: url(../img/content/tmiddle.png) repeat-x;
+}
+.title .tright {
+	width: 10px;
+	height: 23px;
+	background: url(../img/content/tright.png) no-repeat;
+}
+.recont {
+	background: #fff;
+	padding: 14px 18px 14px 18px;
+}
+.recont .imgbox {
+	width: 210px;
+	height: 115px;
+	margin: 0 auto;
+}
+.imgbox a {
+	display: block;
+	width: 210px;
+	height: 115px;
+}
+.imgbox a:hover {
+	color: #125FA3;
+}
+.imgbox a img {
+	width: 210px;
+	height: 115px;
+}
+.recont p {
+    padding: 10px 0 23px 0;
+}
+.recont p a {
+    font-size: 14px;
+    color: #727171;
+}
+.recont p a:hover {
+	color: #125FA3;
+}
+.Recommend .datalist li {
+    padding-bottom: 12px;
+}
+.Recommend .datalist li a {
+    padding-left: 13px;
+    background: url(../img/content/point.png) no-repeat left center;
+    color: #808080;
+    font-size: 12px;
+}
+.Recommend .datalist li a:hover {
+	color: #125FA3;
+}
+/*右边*/
+.contain {
+	width: 73%;
+	background: #fff;
+	margin-bottom: 40px;
+}
+.rt {
+	height: 38px;
+	line-height: 38px;
+	color: #125FA3;
+	background: url(../img/content/rt.png) no-repeat;
+}
+.rt .index {
+	margin-left: 20px;
+	padding-left: 30px;
+	background: url(../img/content/index.png) no-repeat left center;
+}
+.rt a {
+	font-size: 14px;
+	color: #125fa3;
+}
+.rc-title {
+    width: 90%;
+    max-width: 693px;
+    background: url(../img/content/tbg.png) no-repeat left bottom;
+    margin: 28px auto 0 auto;
+}
+.rc-title .chin {
+    font-weight: bold;
+    font-size: 18px;
+    color: #125fa3;
+}
+.rc-title .eng {
+    font-size: 18px;
+    color: #fdd000;
+    padding: 9px 0 24px 0;
+}
+.rc .edits {
+    overflow: hidden;
+    margin: 0 auto;
+    width: 90%;
+}
+.rc .edits p {
+	color: #808080;
+	line-height: 30px;
+}
+.rc .edits h4 {
+	color: #808080;
+}
+.rc .edits img {
+	width: 660px;
+	height: auto;
+	margin: 0 auto;
+}
+/*右边列表类型*/
+.rc .rc-list {
+	width: 100%;
+	max-width: 693px;
+	margin: 0 auto;
+}
+.rc-list li {
+	width: 100%;
+	padding: 28px 0;
+	background: url(../img/content/dashed.png) repeat-x left bottom;
+	overflow: hidden;
+}
+.rc-list li .imgbox {
+	width: 160px;
+	height: 80px;
+	overflow: hidden;
+	padding: 18px 0;
+}
+.rc-list .imgbox a {
+	display: block;
+	width: 160px;
+	height: 80px;
+}
+.rc-list .imgbox img {
+	width: 160px;
+	height: auto;
+}
+.rc-list .lscont {
+    width: 100%;
+    max-width: 506px;
+    margin-left: 26px;
+}
+.rc-list .lscont .time {
+    color: #505153;
+    padding-bottom: 8px;
+    clear: both;
+}
+.rc-list .lscont .tt {
+    padding-bottom: 8px;
+    clear: both;
+}
+.rc-list .lscont .tt a {
+    font-size: 14px;
+    color: #125fa3;
+    font-weight: bold;
+}
+.rc-list .lscont .more {
+    display: block;
+    width: 89px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    background: url(../img/content/more.png) no-repeat;
+    color: #FFF;
+    float: right;
+    margin-top: 6px;
+}
+.rc-list .lscont p {
+    color: #7d8083;
+    line-height: 18px;
+    clear: both;
+}
+/*页码信息*/
+.rc .page {
+	width: 100%;
+	text-align: center;
+	margin: 20px 0;
+}
+.page .ib {
+    height: 26px;
+    margin: 0 10px;
+    line-height: 25px;
+    display: inline-block;
+    vertical-align: top;
+}
+.page a {
+    display: block;
+    height: 26px;
+    line-height: 26px;
+    font-size: 14px;
+    color: #125fa3;
+}
+.page .prev a , .page .next a {
+    width: 26px;
+    background: url(../img/content/page.png) no-repeat;
+    vertical-align: top;
+}
+.page .prev a {
+	background-position: 0 0 ;
+}
+.page .prev a:hover {
+	background-position: 0 -27px ;
+}
+.page .next a {
+	background-position: -27px -27px;
+}
+.page .next a:hover {
+	background-position: -27px 0;
+}

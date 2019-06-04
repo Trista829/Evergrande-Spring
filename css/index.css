@@ -1,0 +1,101 @@
+/*轮播图开始啦*/
+.banner {
+	width: 1920px;
+	height: 446px;
+	margin: 0 auto;
+}
+/*.bg1 {
+	background: url(../img/index/bg1.jpg);
+}
+.bg2 {
+	background: url(../img/index/bg2.jpg);
+}
+.bg3 {
+	background: url(../img/index/bg3.jpg);
+}
+.bg4 {
+	background: url(../img/index/bg4.jpg);
+}
+.bg5 {
+	background: url(../img/index/bg5.jpg);
+}*/
+
+/*内容*/
+.content .inner {
+	padding: 50px 0;
+	height: 200px;
+	display: flex;
+}
+.content .inner > div {
+	flex: 1;
+	margin-right: 20px;
+}
+.content .inner .cart {
+	margin: 0;
+}
+.title {
+	height: 24px;
+	line-height: 15px;
+}
+.title a {
+	color: #125FA3;
+	font-size: 14px;
+}
+.title .more {
+	float: right;
+	line-height: 24px;
+	font-size: 10px;
+}
+.news {
+	position: relative;
+}
+.water {
+	position: relative;
+}
+.news .title {
+	background: url(../img/index/actt.png) no-repeat;
+	padding-left: 35px;
+}
+.video .title {
+	background: url(../img/index/videoCenter.png) no-repeat;
+	border-bottom: 1px solid #4c91c7;
+	padding-left: 30px;
+}
+.water .title {
+	background: url(../img/index/water.png) no-repeat;
+	border-bottom: 1px solid #4c91c7;
+	padding-left: 60px;
+}
+.details {
+	padding: 20px 10px 0 30px;
+}
+.details h4 a {
+	color: #125FA3;
+}
+.details p {
+	width: 180px;
+	color: #999;
+	line-height: 27px;
+	font-size: 13px;
+	white-space: normal;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin-top: 10px;
+}
+.details .del {
+	float: right;
+	font-size: 12px;
+	position: absolute;
+	bottom: 40px;
+	right: 10px;
+	color: #076bba;
+}
+.video img {
+	width: 240px;
+	height: 118px;
+}
+.cart img {
+	width: 200px;
+    height: 60px;
+	margin-left: 10px;
+}
